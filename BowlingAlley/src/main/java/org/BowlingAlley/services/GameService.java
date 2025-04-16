@@ -62,6 +62,7 @@ public class GameService {
             if(maxPlayerScoreInCurrentRound == 0){
                 if(round == 1) {
                     currentPlayerScore += 10;
+                    playerScore += currentPlayerScore;
                     break;
                 } else {
                     currentPlayerScore += 5;
